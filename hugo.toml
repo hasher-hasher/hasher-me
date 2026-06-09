@@ -1,3 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = "Hasher's website"
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
