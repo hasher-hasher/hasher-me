@@ -1,0 +1,6 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title> {{ .Title }} </title>
+{{ with resources.Get "css/main.css" | css.Build }}
+	<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end }}

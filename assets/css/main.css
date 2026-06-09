@@ -1,0 +1,40 @@
+/* Big screens */
+@media screen and (min-width: 800px) {
+	.list-align {
+		text-align: center;
+	}
+
+	.header {
+		padding: 0px;
+	}
+
+	.header li {
+		display: inline-block;
+		padding: 10px;
+	}
+	main {
+		display: flex;
+		justify-content: center;
+
+	}
+	.content {
+		width: 800px;
+	}
+}
+
+/* Small screens */
+@media screen and (max-width: 800px) {
+	.list-align {
+		text-align: center;
+	}
+
+	.header {
+		padding: 0px;
+	}
+
+	.header li {
+		display: block;
+		padding: 10px 0px;
+	}
+}
+

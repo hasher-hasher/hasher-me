@@ -1,0 +1,20 @@
+<html>
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+		<header>
+			{{ partial "header.html" . }}
+		</header>
+		<main>
+			<div class="content">
+				{{ block "main" . }}
+				This piece of text will be replaced by inherited page
+				{{ end }}
+			</div>
+		</main>
+		<footer>
+			{{ partial "footer.html" }}
+		</footer>
+	</body>
+</html>
