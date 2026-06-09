@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hasher.me/'
 locale = 'en-us'
 title = "Hasher's website"
 [caches]
