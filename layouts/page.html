@@ -1,8 +1,6 @@
 {{ define "main" }}
 	<h2> {{ .Title }} </h2>
-	{{ if .Section }}
-		<p>{{ .Date | time.Format "01 Jan 2006" }}</p>
+		<p>{{ time.Format "2 Jan 2006" .Date }}</p>
 		<br>
-	{{ end }}
 	{{ .Content }}
 {{ end }}
